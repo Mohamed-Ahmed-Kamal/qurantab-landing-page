@@ -1,0 +1,29 @@
+footer {
+  background-color: var(--color-very-dark-blue);
+  display: flex;
+  width: 100vw;
+  height: 6rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-off-white);
+  padding: 10px;
+}
+footer img {
+  width: 40px;
+}
+
+footer .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+}
+@media (max-width: 450px) {
+  footer .content {
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer {
+    height: 8rem;
+  }
+}

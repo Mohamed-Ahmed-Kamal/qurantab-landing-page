@@ -1,0 +1,35 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+.features .row {
+  align-items: center;
+  display: flex;
+  gap: 4rem;
+}
+
+.features .text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.features .text p {
+  margin: 12px 0;
+  font-size: 1.4rem;
+  color: var(--color-grayish-blue);
+  line-height: 1.4;
+}
+.features .img {
+  width: 100%;
+}
+.features .img img {
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .diff {
+    order: -1;
+  }
+  .features .row {
+    flex-direction: column;
+  }
+}

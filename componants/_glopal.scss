@@ -1,0 +1,23 @@
+:root {
+  --color-soft-blue: #5368df;
+  --color-soft-red: #fa5757;
+  --color-grayish-blue: #9194a1;
+  --color-very-dark-blue: #252b46;
+  --color-off-white: #f7f7f7;
+  --default-padding: 2rem;
+  --default-radius: 0.4rem;
+  --desktop-width: 900px;
+  --tablet-width: 600px;
+  --timing-animation: 0.2s;
+}
+
+.container {
+  display: flex;
+  max-width: 90rem;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 2rem 0;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: calc(var(--default-padding) * 4);
+}

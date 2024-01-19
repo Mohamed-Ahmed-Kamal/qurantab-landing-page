@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .logo img {
+  width: 40px;
+}
+header .logo p {
+  font-weight: 700;
+}
+header .links {
+  display: flex;
+  gap: 3rem;
+}
+header .links a {
+  font-weight: 700;
+  transition: 0.3s;
+}
+header .links a:hover {
+  color: var(--color-soft-red);
+}
+@media (max-width:500px) {
+  header .logo p{
+    font-size: 1.2rem;
+  }
+}
